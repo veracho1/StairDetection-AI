@@ -13,18 +13,14 @@ This program uses DetectNet, a convolutional neural network that excels at ident
 
 ## Running this project
 
-1. Make sure you have git and cmake installed!
+You have the option of connecting through your terminal (Mac), Putty (Windows), or through your favorite IDE but the instructions here will be on running through IDE
 
-```bash
-sudo apt install git all
-sudo apt install cmake
-```
+1. Connect to your Jetson Nano using by SSH in your favorite IDE (in my case, it was VSCode)
 
-3. Clone the "jetson-inference" project into your home folder:
+2. Clone the "StairDetection" project into your home folder:
 
 ```bash
 git clone https://github.com/dusty-nv/jetson-inference
-cd jetson-inference
 ```
 
 [View a video explanation here](video link)
