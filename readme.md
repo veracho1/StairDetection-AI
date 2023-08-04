@@ -35,7 +35,7 @@ cd StairDetection
 6. Run the your stair-detector python file (stair.py)
 
 ```bash
-python3 stair
+python3 stair.py
 ```
 
 7. Your output is automatically saved in your StairDetection directory as 'python.mp4!'
