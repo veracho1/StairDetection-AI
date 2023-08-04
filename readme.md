@@ -9,18 +9,35 @@ This program uses DetectNet, a convolutional neural network that excels at ident
 1. I worked inside jetson-inference library docker container that includes all other sub-libraries and modules required to perform retraining.
 2. I downloaded a dataset of stairs from [open images dataset](https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F0fp6w) and performed transfer learning with train_ssd.py script sitting inside the jetson-inference library.
 3. I converted the model to onnx, a format that can be loaded into my own python program.
+
 4. Inside my python program, I changed the default network to my onnx model from the default ssd-mobilenet model and changed the elements in the parameters such as where to point for its labels file. My program automatically gets the input from webcam, which sits as "/dev/video0" but it can be altered if you choose to do so. Then it outputs into a mp4 file. 
 
 ## Running this project
 
 You have the option of connecting through your terminal (Mac), Putty (Windows), or through your favorite IDE but the instructions here will be on running through IDE
 
-1. Connect to your Jetson Nano using by SSH in your favorite IDE (in my case, it was VSCode)
+1. Make sure you have python and git installed!
 
-2. Clone the "StairDetection" project into your home folder:
+2. Connect to your Jetson Nano using by SSH in your favorite IDE (in my case, it was VSCode)
+
+3. Clone the "StairDetection" project into your home folder:
 
 ```bash
-git clone https://github.com/dusty-nv/jetson-inference
+git clone https://github.com/veracho1/StairDetection
 ```
+4. cd into the StairDetection directory
+
+```bash
+cd StairDetection
+```
+5. Make sure your camera (webcame) connected and installed to /dev/video0 as it is set as your input
+  
+6. Run the python file
+
+```bash
+python3 StairDetection
+```
+
+7. Your output is automatically saved in your StairDetection directory as 'python.mp4!'
 
 [View a video explanation here](video link)
