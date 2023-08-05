@@ -28,18 +28,20 @@ You have the option of connecting through your terminal (Mac), Putty (Windows), 
 ```bash
 git clone https://github.com/veracho1/StairDetection
 ```
-4. cd into the StairDetection directory
+4. cd into the StairDetection directory.
 
 ```bash
 cd StairDetection
 ```
-5. Make sure your camera (webcame) connected and installed to /dev/video0 as it is set as your input
+5. Make sure your camera (webcame) connected and installed to /dev/video0 as it is set as your input.
   
-6. Run the your stair-detector python file (stair.py)
+6. Run the your stair-detector python file (stair.py).
 
 ```bash
 python3 stair.py
 ```
+
+5. Press Ctrl+c to stop running the program.
 
 7. Your output is automatically saved in your StairDetection directory as 'python.mp4!'
 
