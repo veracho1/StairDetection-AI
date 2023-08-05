@@ -45,4 +45,6 @@ python3 stair.py
 
 7. Your output is automatically saved in your StairDetection directory as 'python.mp4!'
 
-[View a video explanation here](video link)
+## Video Demonstration
+
+[Link to StairDetection-AI Explanation and Walkthrough Video](https://www.youtube.com/watch?v=qzdK04ZbtvY)
