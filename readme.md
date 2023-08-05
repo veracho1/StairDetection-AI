@@ -1,6 +1,9 @@
-# Project Name
+# StairDetection-AI
 
 This is a program that will detect stairs that is in the frame of the camera and highlight them using the DetectNet Object Detection model for those with vision impairments. The real-world application of this would be implementing this application in knee brace so that when there is a step or stairs detected, it lets them know with a voice system that I will be able to incorporate in my program soon. This would prevent falls for people with visual impairments as well as elders in general, as [research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4636376/) found that stairs have been rated as one of the top five places that provide difficulties and an [average of 12,000 deaths per year](https://sobolaw.com/common-injuries-from-falling-down-stairs/#:~:text=According%20to%20this%20study%2C%20falls,of%2012%2C000%20deaths%20per%20year). Currently, the program is still a work in progress, but the ultimate goal is to connect it to a generative text model that generates AI commentary on an earset connected to a knee brace. In addition, I’d like to train the model to identify more objects that can cause accidents for visually impaired people, such as sharp objects, danger signs, broken glass, manholes, and fires with greater accuracy.
+
+<img width="1199" alt="example" src="https://github.com/veracho1/StairDetection-AI/assets/137355484/55fd7a87-d046-4fda-9821-3b7d81f8a568">
+
 
 
 ## The Algorithm
