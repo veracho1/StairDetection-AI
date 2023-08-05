@@ -26,12 +26,12 @@ You have the option of connecting through your terminal (Mac), Putty (Windows), 
 3. Clone the "StairDetection" project into your home folder or whatever directory you'd like to store it in:
 
 ```bash
-git clone https://github.com/veracho1/StairDetection
+git clone https://github.com/veracho1/StairDetection-AI
 ```
 4. cd into the StairDetection directory.
 
 ```bash
-cd StairDetection
+cd StairDetection-AI
 ```
 5. Make sure your camera (webcame) connected and installed to /dev/video0 as it is set as your input.
   
