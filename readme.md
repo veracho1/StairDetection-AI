@@ -23,7 +23,7 @@ You have the option of connecting through your terminal (Mac), Putty (Windows), 
 
 2. Connect to your Jetson Nano using by SSH in your favorite IDE (in my case, it was VSCode)
 
-3. Clone the "StairDetection" project into your home folder:
+3. Clone the "StairDetection" project into your home folder or whatever directory you'd like to store it in:
 
 ```bash
 git clone https://github.com/veracho1/StairDetection
